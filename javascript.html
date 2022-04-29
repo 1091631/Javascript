@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+
+</head>
+
+<body>
+     <script>
+          var fruit = ['apple','orange','grapes','pomgranate'];
+          document.write("fruit names"+"<br>");
+//document.write(fruit.join());
+document.write(fruit.slice(1));
+          var ans;
+         // fruit.push('pineapple');
+         // fruit.unshift('mango');
+          for (var i =0; i<fruit.length;i++){
+               ans = document.write(fruit[i]+"<br/>");
+//document.write(fruit.join());
+
+              }
+              //fruit.splice(2,1,'ele1','ele2');
+//document.write(fruit.join());
+              document.write("after deleting the item"+"<br>");
+              fruit.pop();
+              fruit.shift();
+              for (var i =0; i<fruit.length;i++){
+               ans = document.write(fruit[i]+"<br/>");
+              }
+          
+     </script>
+</body>
+</html>

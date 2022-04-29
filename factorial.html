@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+<title>Javascript Demo</title>
+<script>
+function factorial(){
+
+var inputNumber =  prompt('Please enter an integer');
+var total = 1;
+
+for (i = 0; i < inputNumber; i++){
+    total = total * (inputNumber - i);
+}
+
+alert(inputNumber + '! = ' + total);
+}
+</script>
+</head>
+<body>
+<form>
+Enter Number:<input type="number" id="n"/>
+<input type="button" value="click" onclick="factorial()"/><br>
+</form>
+
+</body>
+</html>
